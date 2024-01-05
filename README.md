@@ -1,31 +1,15 @@
-# React + TypeScript + Vite
+/\*
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# react-challenge-2
+- Breaking Bad Challenge
+-
+- Over the past weekend, the graphic artist for AMC was tragically killed while participating in a high-stakes Yahtzee tournament.
+- Executive producer Vince Gilligan has reached out to you and asked you to help style their logo for an upcoming episode.
+-
+- The problem:
+- Given an Array containing a fake periodic table of elements, write a function below that will take an Array of strings,
+- find where the periodic elements are in the string, and if a match is found, wrap the matching characters in a `<span>`
+- tag so that it will be styled correctly on the page.
+-
+- The function should return an Array of strings with the matching elements wrapped in a `<span>` tag.
+- Once you have written the code, pass the result of the function to the `display` method, so it can be displayed.
+  \*/
